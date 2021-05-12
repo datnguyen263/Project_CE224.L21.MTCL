@@ -1,2 +1,14 @@
 # Project_CE224.L21.MTCL
-# ANH EM NHỚ TẠO BRANCH CHO RIÊNG MÌNH CODE VÀ GỬI REQUEST ĐỂ KIỂM TRA NHÉ! NẾU KO PULL MAIN VỀ THÌ SẼ BỊ CONFLICT VÀ MẤT SRC
+
+## Device
+
+1. Arduino Uno R3
+2. Camera QYF - OV7670 v3.0
+3. ...
+
+## Connect Camera to Arduino 
+
+* Schematic
+
+![schematic](./img/schematic_camera_to_arduino.png)
+
