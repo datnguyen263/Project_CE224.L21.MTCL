@@ -16,9 +16,6 @@ void TCS3200::begin(){
     pinMode(_S2, OUTPUT);
     pinMode(_S3, OUTPUT);
     pinMode(_OUT, INPUT);
-    pinMode(green, OUTPUT);
-    pinMode(blue, OUTPUT);
-    pinMode(red, OUTPUT);
 }
 
 void TCS3200::setFrequency(int f){

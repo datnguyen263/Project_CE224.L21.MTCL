@@ -16,9 +16,6 @@ class TCS3200{
         int _OUT = 2;
 
         // Declare Values of sensor
-        int green = 9;
-        int blue = 10;
-        int red = 11; 
         int redfrequency = 0;
         int greenfrequency = 0;
         int bluefrequency = 0;
