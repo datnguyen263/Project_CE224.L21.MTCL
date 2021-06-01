@@ -18,8 +18,7 @@ void setup() {
   // 1: 20% prescaler
   // 2: 2% prescaler
   // 3: Power dowm
-  digitalWrite(sensor._S0,HIGH);
-  digitalWrite(sensor._S1,LOW);
+  sensor.setFrequency(1);
   Serial.begin(9600);
 }
 
@@ -45,5 +44,5 @@ void loop() {
   Serial.print(sensor.bluefrequency);//printing BLUE color frequency
   analogWrite(blue, sensor.bluefrequency);
   Serial.println("  ");
-  delay(1000);
+  delay(100);
 }
