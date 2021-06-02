@@ -26,3 +26,8 @@ PlatformIO IDE on VSCode: https://code.visualstudio.com/
 |     0    |     255     |     255    |Blueish Green|
 |    255   |      0      |     255    |    Purple   |
 |    255   |     255     |     255    |    White    |
+
+
+## Schematic 
+
+![schematic](./img/schema.png)
